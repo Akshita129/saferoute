@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f7;
+}
+
+nav {
+  background: #2d3436;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+  text-align: center;
+}
+
+#mapBox {
+  height: 300px;
+  width: 90%;
+  margin: auto;
+}
+
+.help-box {
+  background: #ecf0f1;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.card a, .card button {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.premium button {
+  background: #d63031;
+}
+
+footer {
+  background: #2d3436;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SafeRoute</title>
+
+  <!-- Leaflet Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>SafeRoute</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#map">Map</a></li>
+    <li><a href="#help">Help</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <h1>Your Safety, Our Priority</h1>
+  <p>Find safer routes and instant emergency help</p>
+</section>
+
+<!-- MAP -->
+<section id="map">
+  <h2>🗺️ Live Location Map</h2>
+  <div id="mapBox"></div>
+</section>
+
+<!-- HELP SECTION -->
+<section id="help">
+  <h2>🚨 Emergency Support</h2>
+
+  <!-- POLICE -->
+  <div class="help-box">
+    <h3>🚓 Nearby Police Help</h3>
+
+    <div class="card">
+      <p><b>Police Control Room</b></p>
+      <a href="tel:112">Call 112</a>
+    </div>
+
+    <div class="card">
+      <p><b>Mahila Police Station</b></p>
+      <a href="tel:01412744000">Call Now</a>
+    </div>
+  </div>
+
+  <!-- NGO -->
+  <div class="help-box">
+    <h3>🤝 Safety NGOs</h3>
+
+    <div class="card">
+      <p><b>Sakhi Suraksha NGO</b></p>
+      <p>Women Safety Support</p>
+      <a href="tel:18002331111">Call Helpline</a>
+    </div>
+
+    <div class="card">
+      <p><b>ChildLine</b></p>
+      <p>Child Protection</p>
+      <a href="tel:1098">Call 1098</a>
+    </div>
+  </div>
+
+  <!-- PREMIUM -->
+  <div class="help-box premium">
+    <h3>🛡️ Premium Safety Services (Demo)</h3>
+
+    <div class="card">
+      <p><b>Private Security Escort</b></p>
+      <p>Verified trained personnel</p>
+      <p><b>₹299 / request</b></p>
+      <button onclick="demoPayment()">Request Service</button>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <p>© SafeRoute | Hackathon Prototype</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
